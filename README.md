@@ -1,22 +1,33 @@
 🚀 TP 6 : Spring Boot et Thymeleaf
 Ce projet est une application web de gestion d'utilisateurs réalisée avec Spring Boot, Spring Data JPA, Thymeleaf et une base de données MySQL.
+
+
 📋 Fonctionnalités (CRUD)
 Afficher la liste des utilisateurs.
 Ajouter un nouvel utilisateur avec validation des données.
 Modifier les informations d'un utilisateur existant.
 Supprimer un utilisateur.
+
+
+
 🛠️ Technologies Utilisées
 Java 17+
 Spring Boot 3.x (Starter Web, Data JPA, Thymeleaf, Validation)
 MySQL (Serveur de base de données via XAMPP/WAMP)
 Maven (Gestionnaire de dépendances)
 IntelliJ IDEA (IDE)
+
+
+
 📂 Structure du Projet
 Le code est organisé selon une architecture MVC :
 ma.example.demo.entities : Contient l'entité User avec annotations JPA et Validation.
 ma.example.demo.repositories : Contient l'interface UserRepository (Spring Data JPA).
 ma.example.demo.web : Contient UserController pour la logique de navigation.
 src/main/resources/templates : Contient les vues HTML (index, add-user, update-user).
+
+
+
 🏁 Conclusion Personnelle
 Ce TP 6 m'a permis de mettre en pratique les concepts fondamentaux de l'écosystème Spring Boot et de comprendre comment structurer une application web moderne suivant l'architecture MVC (Modèle-Vue-Contrôleur).
 Points clés retenus :
